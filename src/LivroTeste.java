@@ -9,14 +9,18 @@ public class LivroTeste {
         meuLivro.resumo = "nunestopnunestopnunestopnunestop";
         meuLivro.autor = "Lucas o precoçe";
 
+        meuLivro.aplicarDesconto(0.1);
+
         meuLivro.exibirDados();
 
         Livro LivroFavorito = new Livro();
         LivroFavorito.nome = "Eduardo peida xereca";
         LivroFavorito.resumo = "eduardo foi no bosque passear";
         LivroFavorito.paginas = 666;
-        LivroFavorito.preco = 1000000000000000000000000000000.99;
+        LivroFavorito.preco = 100.99;
         LivroFavorito.autor = "Nunes peida arroto";
+
+        LivroFavorito.aplicarDesconto(0.25);
 
         LivroFavorito.exibirDados();
     }

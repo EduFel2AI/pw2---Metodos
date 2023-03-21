@@ -18,4 +18,8 @@ public class Livro {
     void aplicarDesconto(double percentual) {
         preco = preco - (preco * percentual);
     }
+
+    void acrescentarTaxa() {
+        preco = preco + (preco * 0.8);
+    }
 }
